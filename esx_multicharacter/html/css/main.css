@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<body> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+
+
+    font-family: "Montserrat", sans-serif;
+
+}
+
+html {
+    overflow: hidden;
+}
+
+p {
+    margin: 0 !important;
+}
+
+body {
+    background: transparent;
+}
+
+
+.container {
+    display: none;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.00) 47.92%, rgba(0, 0, 0, 0.58) 100%), linear-gradient(90deg, rgba(165, 217, 208, 0.22) 0%, rgba(0, 0, 0, 0.00) 51.04%, rgba(165, 217, 208, 0.22) 100%), url(/html/images/d47f1f-lin9.webp);
+
+}
+
+
+
+
+.left_text {
+
+    height: 8%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+    padding-left: 2%;
+    width: 98%;
+
+
+    padding-bottom: 1.0%;
+
+    letter-spacing: 0.2rem;
+
+    border-radius: 2px;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, #ffffff, #ffffff, #ffffff30, #ffffff30, #ffffff30);
+    border-image-slice: 1;
+
+}
+
+
+
+.left_text {
+    padding-left: 1%;
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    color: #F6F6F6;
+
+
+
+}
+
+.text {
+    padding-left: 1%;
+    /* padding-bottom: 1%; */
+}
+
+
+.left_text h1 {
+    text-shadow: 0px 0px 50px #F6F6F6;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.left_text p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 10;
+    line-height: normal;
+    margin-top: -5%;
+}
+
+
+/* .left_text img {
+} */
+
+
+
+
+/* Header */
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 5px;
+    padding-left: 1%;
+    padding-bottom: 20px;
+
+    border-radius: 2px;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, #ffffff, #ffffff, #ffffff30, #ffffff30, #ffffff30);
+    border-image-slice: 1;
+
+}
+
+
+.header {
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+
+
+.title svg {
+    width: 4rem;
+    height: 4rem;
+}
+
+.header b {
+
+    font-weight: 600;
+    font-size: 40px;
+
+    color: #ffffff;
+    /* padding-left: 1%; */
+}
+
+.header p {
+
+    font-size: 14.3px;
+    font-weight: 500;
+    text-align: center;
+    /* padding-left: 1%; */
+
+    color: #a4a4a4;
+}
+
+/* Multicharacter info */
+
+
+
+.main-container {
+
+    display: none;
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 55%;
+    right: 1%;
+
+    width: 480px;
+    padding: 20px;
+    margin-top: 1%;
+
+
+    border-radius: 10px;
+
+    border: none;
+    color: #ffffff;
+
+
+
+}
+
+
+.character-box {
+    display: flex;
+    right: 0;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+
+
+
+
+    height: calc(39rem);
+    width: 96%;
+    /* border: 1px rgb(230, 3, 3) solid; */
+}
+
+.character-box h1 {
+
+
+    font-size: 14.3px;
+    font-weight: 500;
+
+    text-align: left;
+
+    color: #c0c0c0;
+    padding-left: 1%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+
+}
+
+.character-info-name,
+.character-info-work,
+.character-info-money,
+.character-info-bank,
+.character-info-dateofbirth,
+.character-info-gender {
+    /* margin-bottom: 15px; */
+    border: none;
+    width: 90%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    font-size: 14.3px;
+    font-weight: 500;
+
+    padding-left: 0;
+    color: #e7e7e7;
+
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+
+    flex-grow: 0;
+    border-radius: 8px;
+
+
+
+    background: linear-gradient(128deg, #15151558, #151515e9) padding-box,
+        linear-gradient(128deg, #15151500, #83838379, #ffffff6d) border-box;
+
+    padding-left: 2%;
+
+
+    border: 0.0625rem solid #9e9e9e;
+    box-shadow: 0rem 0rem 1.75rem #9e9e9e15;
+}
+
+
+
+
+.bottom-slogan {
+    height: 100%;
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 7%;
+}
+
+
+.bottom-slogan h3 {
+
+    font-size: 11.3px;
+    font-weight: 500;
+    text-align: left;
+    color: #b6b6b6;
+    padding-left: 1%;
+    padding-right: 2%;
+
+}
